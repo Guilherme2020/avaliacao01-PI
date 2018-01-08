@@ -42,5 +42,19 @@
             <h1>Lorem ipsum dolor sit amet, consectetur</h1>
         </div>
     </section>
+    <script>
+        document.getElementById('sandwich').onclick = function(){
+            var menu = document.getElementById('menu-full'),
+                sandwich = document.getElementById('sandwich');
+
+            if (menu.className === 'menu-full opened') {
+                menu.className = 'menu-full';
+                sandwich.className = 'icon';
+            } else {
+                menu.className = 'menu-full opened';
+                sandwich.className = 'icon opened';
+            }
+        }
+    </script>
 </body>
 </html>
