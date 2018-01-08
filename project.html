@@ -20,7 +20,56 @@
                     <li><a href="#contato">contato</a></li>
                 </ul>
             </nav>
+            <ul class="sandwich">
+                <li class="icon" id="sandwich">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </li>
+            </ul>
+            <div class="menu-full" id="menu-full">
+                <ul>
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="#projetos">projetos</a></li>
+                    <li><a href="#contato">contato</a></li>
+                </ul>
+            </div>
         </div>
     </header>
+    <section class="content" style="background-image: url('img/cover.jpg')">
+        <div class="container">
+            <h1>Lorem Ipsum</h1>
+        </div>
+    </section>
+    <main>
+        <section class="presentation">
+            <div class="container">
+                <div class="section-content">
+                    <h2>Lorem ipsum dolor sit amet, consectetur.</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae blanditiis delectus ipsa iure laborum nulla officiis soluta. Ab debitis magnam minus quia tenetur voluptatem voluptatum! Hic iusto pariatur saepe sapiente?</p>
+                    <div class="team client-logo">
+                        <div class="client">
+                            <img src="img/client-logo.png" alt="cliente,homem">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        document.getElementById('sandwich').onclick = function(){
+            var menu = document.getElementById('menu-full'),
+                sandwich = document.getElementById('sandwich');
+
+            if (menu.className === 'menu-full opened') {
+                menu.className = 'menu-full';
+                sandwich.className = 'icon';
+            } else {
+                menu.className = 'menu-full opened';
+                sandwich.className = 'icon opened';
+            }
+        }
+    </script>
 </body>
 </html>
