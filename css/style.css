@@ -394,7 +394,24 @@ section.contact .button {
     width: 100%;
 }
 
-
+.gallery {
+    display: flex;
+    width: 100%;
+    position: relative;
+    top: -30px;
+    flex-wrap: wrap;
+}
+.gallery div {
+    display: inline-block;
+    width: 25%;
+    flex-grow: 1;
+    margin-right: 40px;
+    border-radius: 20px;
+    overflow: hidden;
+    background-size: cover;
+    height: 400px;
+    margin-bottom: 40px;
+}
 
 
 @media screen and (min-width: 600px) {
