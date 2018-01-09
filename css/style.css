@@ -201,7 +201,23 @@ main section:before {
     left: -5%;
     transform: rotate(4deg);
 }
-
+main section.skills {
+    background-color: #efefef;
+}
+main section.skills:before {
+    background-color: #efefef;
+}
+main section.contact {
+    background-color: #e0e0e0;
+}
+main section.contact:before {
+    background-color: #e0e0e0;
+}
+main section .icon-section {
+    top: -50px;
+    font-size: 50px;
+    position: absolute;
+}
 main section p {
     width: calc(100% - 400px);
     line-height: 23px;
