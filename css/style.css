@@ -464,6 +464,13 @@ section.contact .button {
         position: relative;
         top: -45px;
     }
+
+    .button {
+        width: 100%;
+        box-sizing: border-box;
+        text-align: center;
+    }
+
     h2 {
         width: 100%;
         text-align: center;
@@ -478,5 +485,31 @@ section.contact .button {
         top: 20px;
         right: 20px;
         z-index: 9999999;
+    }
+
+    .portfolio {
+        width: 100%;
+        margin: 0;
+    }
+    .portfolio .job {
+        width: 100% !important;
+    }
+
+    .form-wrapper {
+        width: 100%;
+    }
+
+    .maps {
+        float: none;
+        width: 100%;
+        margin: 0;
+    }
+
+    .gallery {
+        top: 0;
+    }
+    .gallery div {
+        width: 100%;
+        margin-right: 0;
     }
 }
