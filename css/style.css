@@ -2,7 +2,7 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-
+/* MoTOR DE RENDERIZACAO para chome, firefox, safari */
 body,
 html {
     overflow-x: hidden;
