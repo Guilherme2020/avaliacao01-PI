@@ -1,0 +1,12 @@
+{
+    "name": "guilherme/avaliacao01-pi",
+    "description": "A page of  Web Program of Studio",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "guilherme2020",
+            "email": "guilhermerodrigues123477@gmail.com"
+        }
+    ],
+    "require": {}
+}
